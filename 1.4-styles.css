@@ -98,7 +98,8 @@ nav li {
 
 .company-name {
     vertical-align: middle;
-    font-family: ... text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
 }
 
 aside {
@@ -109,6 +110,18 @@ aside {
     height: 85px;
     width: 85px;
     border-radius: 100%;
+    position: relative;
+    top: 82px;
+    right: 230px;
+}
+
+.small-name {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: rgb(0, 104, 182);
+    position: relative;
+    right: 235px;
+    top: 72.5px;
 }
 
 .heading-3 {
