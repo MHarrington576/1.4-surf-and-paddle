@@ -193,6 +193,15 @@ nav li {
     color: #0068B6;
 }
 
+.hipster-text-2 {
+    bottom: 44px;
+}
+
+.ht2l2 {
+    position: relative;
+    top: 11px;
+}
+
 
 /*--SIDEBAR--*/
 
@@ -255,6 +264,25 @@ aside div {
     display: inline-block;
     float: right;
     position: relative;
+    left: 112px;
+    top: 106px;
+}
+
+.lower-sidebar-heading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #0068B6;
+}
+
+.stubborn-sidebar-text {
+    display: inline-block;
+    position: relative;
+    width: 270px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.75;
+    bottom: 29px;
 }
 
 
