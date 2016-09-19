@@ -40,10 +40,12 @@ header::before {
     height: 46px;
     width: 46px;
     margin-left: -60px;
+    color: #003352;
 }
 
 .company-name-small {
     font-family: 'Open Sans', sans-serif;
+    color: #003352;
     text-transform: uppercase;
     position: relative;
     bottom: 18px;
@@ -60,6 +62,7 @@ nav ul {
     display: inline-block;
     list-style: none;
     font-family: 'Oswald', sans-serif;
+    color: #003352;
     font-size: 17.5px;
     text-transform: uppercase;
     position: relative;
@@ -76,6 +79,14 @@ nav li {
     left: 13px;
 }
 
+nav li i {
+    position: relative;
+    display: inline-block;
+    left: 16px;
+    bottom: 2px;
+    color: #003352;
+}
+
 .heading-1 {
     position: relative;
     font-family: 'Open Sans', sans-serif;
@@ -89,6 +100,7 @@ nav li {
 .heading-2 {
     position: relative;
     font-family: 'Open Sans', sans-serif;
+    color: #003352;
     text-align: center;
     font-size: 15.5px;
     bottom: 30px;
@@ -106,6 +118,11 @@ nav li {
     font-size: 62px;
     color: rgb(0, 50, 83);
     line-height: 71px;
+}
+
+.social-media {
+    position: relative;
+    left: 11px;
 }
 
 .small-author-info {
@@ -147,6 +164,14 @@ nav li {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 1.75;
+}
+
+.charcoal-art {
+    color: #A0B3C0;
+}
+
+.fashion-axe {
+    color: #0068B6;
 }
 
 .ht1l2 {
@@ -200,6 +225,187 @@ nav li {
 .ht2l2 {
     position: relative;
     top: 11px;
+}
+
+.comments {
+    position: relative;
+    left: 167px;
+    bottom: 25px;
+}
+
+.later {
+    position: relative;
+    left: 323px;
+    bottom: 73px;
+}
+
+.share {
+    position: relative;
+    left: 462px;
+    bottom: 134px;
+}
+
+.read-comments {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #a0b3c0;
+    right: 4px;
+    bottom: 4px;
+    width: 125px;
+    height: 30px;
+}
+
+.read-later {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #a0b3c0;
+    left: 6px;
+    top: 1px;
+    width: 95px;
+    height: 30px;
+}
+
+.share-this-post {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #0068b6;
+    left: 7px;
+    top: 19px;
+    width: 122px;
+    height: 30px;
+}
+
+.rc-text, .rl-text, .stp-text {
+    position: relative;
+    bottom: 13px;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.comments-icon {
+    position: relative;
+    display: inline-block;
+    background-color: #5C6870;
+    color: #FFFFFF;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    bottom: 17px;
+}
+
+.later-icon {
+    position: relative;
+    display: inline-block;
+    background-color: #5C6870;
+    color: #FFFFFF;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    left: 11px;
+    bottom: 12px;
+}
+
+.share-icon {
+    position: relative;
+    display: inline-block;
+    background-color: #003253;
+    color: #FFFFFF;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    left: 11px;
+    top: 6px;
+}
+
+hr {
+    position: relative;
+    bottom: 67px;
+}
+
+.self-promotion-heading {
+    position: relative;
+    left: 368px;
+    bottom: 98px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #003253;
+    font-size: 42px;
+}
+
+.promo-text-1, .promo-text-2, .promo-text-3, .promo-text-4 {
+    position: relative;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #003253;
+    z-index: 10;
+}
+
+.promo-text-1 {
+    bottom: 135px;
+    right: 318px;
+}
+
+.promo-text-2 {
+    bottom: 505px;
+    left: 11px;
+    color: #FFFFFF;
+}
+
+.promo-text-3 {
+    bottom: 877px;
+    left: 338px;
+    line-height: 34px;
+}
+
+.promo-text-4 {
+    bottom: 1237px;
+    left: 664px;
+}
+
+.promo-pic-1 {
+    display: inline-block;
+    position: relative;
+    width: 325px;
+    height: 330px;
+    bottom: 120px;
+}
+
+.promo-pic-2 {
+    display: inline-block;
+    position: relative;
+    width: 325px;
+    height: 330px;
+    bottom: 489px;
+    left: 325px;
+}
+
+.promo-pic-3 {
+    display: inline-block;
+    position: relative;
+    width: 325px;
+    height: 330px;
+    bottom: 858px;
+    left: 650px;
+}
+
+.promo-pic-4 {
+    display: inline-block;
+    position: relative;
+    width: 325px;
+    height: 330px;
+    bottom: 1222px;
+    left: 975px;
 }
 
 
@@ -288,7 +494,36 @@ aside div {
 
 /*--FOOTER--*/
 
-footer {
+.alt-footer {
+    position: relative;
+    display: block;
     height: 96px;
-    background-color: rgb(0, 50, 83)
+    background-color: rgb(0, 50, 83);
+    bottom: 1261px;
+}
+
+.tiy-logo {
+    display: inline-block;
+    position: relative;
+    width: 71px;
+    top: 14px;
+    left: 152px;
+}
+
+.tiy-copyright {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13.5px;
+    color: #A0B3C0;
+    bottom: 9px;
+    left: 148px;
+}
+
+.footer-nav {
+    display: inline;
+    position: relative;
+    font-family: 'Open-Sans', sans-serif;
+    color: #A0B3C0;
+    left: 433px;
+    bottom: 10px;
 }
